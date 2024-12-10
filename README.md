@@ -63,7 +63,13 @@ Milestone 4:
 Milestone 5:
 
 Conclusions:
+■ Should motivate problem 
+■ Discuss technical challenges or lessons learned in project. 
+■ Should discuss conclusions (feature importance?), particularly for possible stakeholders 
 
+Overall, we found that a recurrent neural network (RNN) worked well for predicting the energy 
+price of Illinois. We concluded that given some features, we can prediction the energy price in 
+Illinois, for a given day, with an accuracy of XX%.
 
 
 
