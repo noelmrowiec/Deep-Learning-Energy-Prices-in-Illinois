@@ -1,6 +1,6 @@
 # Deep Dive Project
 ## team members
-Noel Mrowiec (mrowiec3@illinois.edu)
+Noel Mrowiec (mrowiec3@illinois.edu) asdf 
 Hanliang Jiang (hj33@illinois.edu)
 Hong-Ming Chiu (hmchiu2@illinois.edu)
 ## problem statement
