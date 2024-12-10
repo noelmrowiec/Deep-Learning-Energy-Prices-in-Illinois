@@ -37,21 +37,19 @@ The data for this project is from various sources.
 ## Features
 We will use the following columns in the dataset as feature:
 
-Sin_Month, Cos_Month: Month in cyclical data format.
-Sin_Day, Cos_Day: Day of the week in cyclical data format.
-Sin_Hour, Cos_Hour: Hour of the day in cyclical data format.
-Temperature: Air temperature at Argonne National Laboratory in Lemont, Illinois
-Forecasted Load (MISO): Forecasted Load from MISO.
-Day Ahead Energy Price (IL): Day Ahead Energy Price at Illinois.
-Energy Price (MICHIGAN.HUB): Energy Price at Michigan hub.
-Energy Price (INDIANA.HUB): Energy Price at Indiana hub.
-Energy Price (ARKANSAS.HUB): Energy Price at Arkansas hub.
+Sin_Month, Cos_Month: Month in cyclical data format
+Sin_Day, Cos_Day: Day of the week in cyclical data format
+Sin_Hour, Cos_Hour: Hour of the day in cyclical data format
+Temperature: Air temperature at Argonne National Laboratory in Lemont, Illinois in degrees degree Fahrenheit
+Forecasted Load (MISO): Forecasted Load from MISO in LMP
+Day Ahead Energy Price (IL): Day Ahead Energy Price at Illinois in LMP
+Energy Price (MICHIGAN.HUB): Energy Price at Michigan hub in LMP
+Energy Price (INDIANA.HUB): Energy Price at Indiana hub in LMP
+Energy Price (ARKANSAS.HUB): Energy Price at Arkansas hub in LMP
 
 Note: all energy prices are in Locational marginal pricing (LMP) units. Please see https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/ for more information.
 
-Note: the milestone description 
-
-
+Note: the milestones gives a description about why we used a cyclical data format for the date. 
 
 
 Milestone 1: 
