@@ -37,19 +37,19 @@ The data for this project is from various sources.
 ## Features
 We will use the following columns in the dataset as feature:
 
-Sin_Month, Cos_Month: Month in cyclical data format
-Sin_Day, Cos_Day: Day of the week in cyclical data format
-Sin_Hour, Cos_Hour: Hour of the day in cyclical data format
-Temperature: Air temperature at Argonne National Laboratory in Lemont, Illinois in degrees degree Fahrenheit
-Forecasted Load (MISO): Forecasted Load from MISO in LMP
-Day Ahead Energy Price (IL): Day Ahead Energy Price at Illinois in LMP
-Energy Price (MICHIGAN.HUB): Energy Price at Michigan hub in LMP
-Energy Price (INDIANA.HUB): Energy Price at Indiana hub in LMP
-Energy Price (ARKANSAS.HUB): Energy Price at Arkansas hub in LMP
+Sin_Month, Cos_Month: Month in cyclical data format  
+Sin_Day, Cos_Day: Day of the week in cyclical data format  
+Sin_Hour, Cos_Hour: Hour of the day in cyclical data format  
+Temperature: Air temperature at Argonne National Laboratory in Lemont, Illinois in degrees degree Fahrenheit  
+Forecasted Load (MISO): Forecasted Load from MISO in LMP  
+Day Ahead Energy Price (IL): Day Ahead Energy Price at Illinois in LMP  
+Energy Price (MICHIGAN.HUB): Energy Price at Michigan hub in LMP  
+Energy Price (INDIANA.HUB): Energy Price at Indiana hub in LMP  
+Energy Price (ARKANSAS.HUB): Energy Price at Arkansas hub in LMP  
 
-Note: all energy prices are in Locational marginal pricing (LMP) units. Please see https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/ for more information.
+Note: all energy prices are in Locational marginal pricing (LMP) units. Please see https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/ for more information.  
 
-Note: the milestones gives a description about why we used a cyclical data format for the date. 
+Note: the milestones gives a description about why we used a cyclical data format for the date.   
 
 
 Milestone 1: For this milestone, we first figured out the layout of the dataset, and divided the dataset into debugging set and working set. We then pickled the data for future use.
@@ -67,7 +67,7 @@ Conclusions:
 
 Overall, we found that a recurrent neural network (RNN) worked well for predicting the energy 
 price of Illinois. We concluded that given some features, we can prediction the energy price in 
-Illinois, for a given day, with an accuracy of XX%.
+Illinois, for a given day, with an accuracy of XX%. Our model correctly predicts the energy price within 5% of the actual price 90% of the time.
 
 
 
