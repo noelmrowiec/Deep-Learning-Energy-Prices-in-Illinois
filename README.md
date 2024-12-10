@@ -34,8 +34,8 @@ The data for this project is from various sources.
 - The temperature reading comes from https://www.sciencebase.gov/catalog/item/660ad9d2d34e4df16bd58a23
 
 
-
 ## Features
+
 We will use the following column in the dataset as feature:
 
 Sin_Month, Cos_Month. Month in cyclical data format.
