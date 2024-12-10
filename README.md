@@ -14,17 +14,17 @@ This is the final project for IE 534 / CS 547 Deep Learning at the UIUC. The fin
 ## Problem Statement
 For this project, we will be predicting the price of energy provided by MISO (Midcontinent Independent System Operator). We are given different features, including Forecasted Load, Day Ahead Energy Price, Time, Energy prices in surrounding states and Predicted weather, and will be using recurrent neural networks to predict the price. The label (actual energy price) is the ground truth. We will try to predict the label.  
 
-Label:
+Label: 
 -Actual Energy Price (http://www.energyonline.com/Data/GenericData.aspx?DataId=8&MISO___Actual_Energy_Price) for ILLINOIS.HUB
 
-Features:
--Forecasted Load
--Day Ahead Energy Price
--Day of Week
--Hour of Day
--Month
--Energy prices in surrounding states
--Daily temperature
+Features: 
+-Forecasted Load 
+-Day Ahead Energy Price 
+-Day of Week 
+-Hour of Day 
+-Month 
+-Energy prices in surrounding states 
+-Daily temperature 
 
 
 ## Data
