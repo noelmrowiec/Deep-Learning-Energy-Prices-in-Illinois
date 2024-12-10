@@ -66,15 +66,18 @@ Conclusions:
 ■ Should discuss conclusions (feature importance?), particularly for possible stakeholders 
 
 Overall, we found that a recurrent neural network (RNN) worked well for predicting the energy 
-price of Illinois. We concluded that given some features, we can prediction the energy price in 
-Illinois, for a given day, with an accuracy of XX%. Our model correctly predicts the energy price 
-within 5% of the actual price 90% of the time.
+price of Illinois. Our model correctly predicts the energy price 
+within 10% of the actual price 78% of the time.
 
 The goal of predicting energy prices is to provide a way for customers and energy provider to save money. 
 Energy predictions "sends accurate price signals to generators and customers, informing them when and 
 where power is cheap or expensive. Market participants benefit from access to transparent real-time data 
 to make reliable decisions about investment, resulting in more innovation, efficiency, reliability and 
-market liquidity." [1] 
+market liquidity." [1] Accurate predictions are import because it will save more money. 
+
+Over the course of our project, we learned that data cleaning and manipulation is very important. As we progressed through milestones, we spent the majority of our time adjusting our dataset. During milestone 1, we included all of the data. In the later milestones, we have to go back and adjust our data. Below is a list of how we had to adjust our data:
+ - Changed dates to cyclical date. 
+    The prices of energy varies by time of of day and the season. Cold and hot months use more energy. Additionally, more energy is consumed during the evening 
 
 ### References:
 [1]S. Ozkan, “An Intro to Locational Marginal Pricing | Enverus,” www.enverus.com, Jan. 05, 2022. https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/
