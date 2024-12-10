@@ -37,15 +37,15 @@ The data for this project is from various sources.
 ## Features
 We will use the following columns in the dataset as feature:
 
-Sin_Month, Cos_Month: Month in cyclical data format  
-Sin_Day, Cos_Day: Day of the week in cyclical data format  
-Sin_Hour, Cos_Hour: Hour of the day in cyclical data format  
-Temperature: Air temperature at Argonne National Laboratory in Lemont, Illinois in degrees degree Fahrenheit  
-Forecasted Load (MISO): Forecasted Load from MISO in LMP  
-Day Ahead Energy Price (IL): Day Ahead Energy Price at Illinois in LMP  
-Energy Price (MICHIGAN.HUB): Energy Price at Michigan hub in LMP  
-Energy Price (INDIANA.HUB): Energy Price at Indiana hub in LMP  
-Energy Price (ARKANSAS.HUB): Energy Price at Arkansas hub in LMP  
+- Sin_Month, Cos_Month: Month in cyclical data format  
+- Sin_Day, Cos_Day: Day of the week in cyclical data format  
+- Sin_Hour, Cos_Hour: Hour of the day in cyclical data format  
+- Temperature: Air temperature at Argonne National Laboratory in Lemont, Illinois in degrees degree Fahrenheit  
+- Forecasted Load (MISO): Forecasted Load from MISO in LMP  
+- Day Ahead Energy Price (IL): Day Ahead Energy Price at Illinois in LMP  
+- Energy Price (MICHIGAN.HUB): Energy Price at Michigan hub in LMP  
+- Energy Price (INDIANA.HUB): Energy Price at Indiana hub in LMP  
+- Energy Price (ARKANSAS.HUB): Energy Price at Arkansas hub in LMP  
 
 Note: all energy prices are in Locational marginal pricing (LMP) units. Please see https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/ for more information.  
 
@@ -67,11 +67,16 @@ Conclusions:
 
 Overall, we found that a recurrent neural network (RNN) worked well for predicting the energy 
 price of Illinois. We concluded that given some features, we can prediction the energy price in 
-Illinois, for a given day, with an accuracy of XX%. Our model correctly predicts the energy price within 5% of the actual price 90% of the time.
+Illinois, for a given day, with an accuracy of XX%. Our model correctly predicts the energy price 
+within 5% of the actual price 90% of the time.
 
-The goal of predicting energy prices is to provide a way for customers and energy provider to save money. Energy predictions "sends accurate price signals to generators and customers, informing them when and where power is cheap or expensive. Market participants benefit from access to transparent real-time data to make reliable decisions about investment, resulting in more innovation, efficiency, reliability and market liquidity." [1] 
+The goal of predicting energy prices is to provide a way for customers and energy provider to save money. 
+Energy predictions "sends accurate price signals to generators and customers, informing them when and 
+where power is cheap or expensive. Market participants benefit from access to transparent real-time data 
+to make reliable decisions about investment, resulting in more innovation, efficiency, reliability and 
+market liquidity." [1] 
 
-References:
+### References:
 [1]S. Ozkan, “An Intro to Locational Marginal Pricing | Enverus,” www.enverus.com, Jan. 05, 2022. https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/
 
 ## MIT License
