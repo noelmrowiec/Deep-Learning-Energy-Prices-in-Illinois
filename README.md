@@ -49,15 +49,13 @@ Energy Price (INDIANA.HUB). Energy Price at Indiana hub.
 Energy Price (ARKANSAS.HUB). Energy Price at Arkansas hub.
 
 
-Milestone 1: 
+Milestone 1: For this milestone, we first figured out the layout of the dataset, and divided the dataset into debugging set and working set. We then pickled the data for future use.
 
-Milestone 2:
+Milestone 2: There are two parts of this milestone, the data exploration part visualizes all different sources of data, while the linear regression fit the data in a simple linear model and showcase the accuracy of the model. It is worth noticing that after visualizing different sources of data, we decided to trim the data to a unified time span, which is data cleaning work.
 
-Milestone 3:
+Milestone 3: For this milestone, we trained a Recurrent Neural Network and experimented with mini batch method on the dataset.
 
-Milestone 4:
-
-Milestone 5:
+Milestone 4: For this milestone, we evaluated feature importance for each different features by dropping out every feature separately and retrain the model. By the difference of accuracy rate between different features dropped out, we drew the conclusion that the energy price in Indiana has the most influence on the prediction.
 
 Conclusions:
 
