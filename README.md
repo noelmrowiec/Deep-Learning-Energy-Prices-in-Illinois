@@ -1,10 +1,30 @@
-# Deep Dive Project
-## team members
-Noel Mrowiec (mrowiec3@illinois.edu) asdf 
+# IE 534 - Deep Dive Project
+# 
+
+## Team members
+Noel Mrowiec (mrowiec3@illinois.edu) 
 Hanliang Jiang (hj33@illinois.edu)
 Hong-Ming Chiu (hmchiu2@illinois.edu)
-## problem statement
-For this project, we will be predicting the price of energy provided by MISO( Midcontinent Independent System Operator ). We are given different features, including Forecasted Load, Day Ahead Energy Price, Time, Energy prices in surrounding states and Predicted weather, and will be using recurrent neural networks to predict the price.
+
+
+## Problem Statement
+For this project, we will be predicting the price of energy provided by MISO (Midcontinent Independent System Operator). We are given different features, including Forecasted Load, Day Ahead Energy Price, Time, Energy prices in surrounding states and Predicted weather, and will be using recurrent neural networks to predict the price.
+
+Milestone 1: 
+
+Milestone 2:
+
+Milestone 3:
+
+Milestone 4:
+
+Milestone 5:
+
+Conclusions:
+
+
+
+
 ## MIT License
 
 
