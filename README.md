@@ -1,6 +1,6 @@
 # IE 534 - Deep Dive Project
 # 
-Group 31
+Group 31  
 Project 7
 
 ## Team members
@@ -85,9 +85,9 @@ Over the course of our project, we learned that data cleaning and manipulation i
     The prices of energy varies by time of of day and the season. Cold and hot months use more energy. Additionally, more energy is consumed during the daytime on a weekday than at nigh or weekends [2]. Since our data is samples overtime (approximately every hour), it made more sense to use cyclical data format instead of treating the month as categorical data and the day of the week and hour of the day as categorical or continuous data [3]. Changing the dates to sine and cosine (cyclical data) better represented the cyclical natural of the time, day of the week, and month. 
  - Selected date-range with complete data: 
     There were periods of time that did not have samples. In the image below, we can see that in 2020 there was a long period of time without any recorded energy prices. 
-    ![alt text](image.png)
+    ![alt text](image.png)  
     Other features had similar missing samples. Thus, we decided to drop a sample if any of the features were not recorded. This allowed us to only include samples over specific date ranges. 
- - Feature selection:
+ - Feature selection: Although the original data included other MISO hubs like Texas and Louisiana, we only kept Minnasota, Indiana, and  
     
 
 ### References:
