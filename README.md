@@ -62,8 +62,11 @@ Milestone 4: For this milestone, we evaluated feature importance for each differ
 
 Conclusions:
 ■ Should motivate problem 
-■ Discuss technical challenges or lessons learned in project. 
+
+■ Discuss technical challenges or lessons learned in project.
+
 ■ Should discuss conclusions (feature importance?), particularly for possible stakeholders 
+
 
 Overall, we found that a recurrent neural network (RNN) worked well for predicting the energy 
 price of Illinois. Our model correctly predicts the energy price 
