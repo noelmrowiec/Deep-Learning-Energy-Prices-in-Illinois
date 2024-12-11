@@ -76,11 +76,20 @@ to make reliable decisions about investment, resulting in more innovation, effic
 market liquidity." [1] Accurate predictions are import because it will save more money. 
 
 Over the course of our project, we learned that data cleaning and manipulation is very important. As we progressed through milestones, we spent the majority of our time adjusting our dataset. During milestone 1, we included all of the data. In the later milestones, we have to go back and adjust our data. Below is a list of how we had to adjust our data:
- - Changed dates to cyclical date. 
-    The prices of energy varies by time of of day and the season. Cold and hot months use more energy. Additionally, more energy is consumed during the evening 
+ - Changed dates to cyclical date: 
+    The prices of energy varies by time of of day and the season. Cold and hot months use more energy. Additionally, more energy is consumed during the daytime on a weekday than at nigh or weekends [2]. Since our data is samples overtime (approximately every hour), it made more sense to use cyclical data format instead of treating the month as categorical data and the day of the week and hour of the day as categorical or continuous data [3]. Changing the dates to sine and cosine (cyclical data) better represented the cyclical natural of the time, day of the week, and month. 
+ - Selected date-range with complete data: 
+    There were periods of time that did not have samples. In the image below, we can see that in 2020 there was a long period of time without any recorded energy prices. 
+    ![alt text](image.png)
+    Other features had similar missing samples. Thus, we decided to drop a sample if any of the features were not recorded. This allowed us to only include samples over specific date ranges. 
 
 ### References:
 [1]S. Ozkan, “An Intro to Locational Marginal Pricing | Enverus,” www.enverus.com, Jan. 05, 2022. https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/
+
+[2]T. Hodge, “Hourly electricity consumption varies throughout the day and across seasons - Today in Energy - U.S. Energy Information Administration (EIA),” www.eia.gov, Feb. 21, 2020. https://www.eia.gov/todayinenergy/detail.php?id=42915
+
+[3]“How to Handle Cyclical Data in Machine Learning | Better Data Science,” betterdatascience.com. https://betterdatascience.com/cyclical-data-machine-learning/
+
 
 ## MIT License
 
