@@ -102,7 +102,7 @@ Over the course of our project, we learned that data cleaning and manipulation i
 
 We spent the most time cleaning and merging data as we progressed through the milestones. We appreciated this aspect of machine learning since many other classes give the student clean data.
 
-Below you can see out results on test data for min/max normalized data: 
+Below you can see out results on sub-section of test data for min/max normalized energy prices: 
 ![alt text](results.jpg)
     
 
