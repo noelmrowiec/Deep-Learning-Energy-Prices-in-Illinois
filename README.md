@@ -19,16 +19,16 @@ https://drive.google.com/file/d/1-BfKYeP7_9H_0HZmEQeWynpG_kUGCyJN/view?usp=shari
 For this project, we will be predicting the price of energy provided by MISO (Midcontinent Independent System Operator). We are given different features, including Forecasted Load, Day Ahead Energy Price, Time, Energy prices in surrounding states and Predicted weather, and will be using recurrent neural networks to predict the price. The label (actual energy price) is the ground truth. We will try to predict the label.  
 
 Label: 
--Actual Energy Price (http://www.energyonline.com/Data/GenericData.aspx?DataId=8&MISO___Actual_Energy_Price) for ILLINOIS.HUB
+- Actual Energy Price (http://www.energyonline.com/Data/GenericData.aspx?DataId=8&MISO___Actual_Energy_Price) for ILLINOIS.HUB
 
 Features: 
--Forecasted Load 
--Day Ahead Energy Price 
--Day of Week 
--Hour of Day 
--Month 
--Energy prices in surrounding states 
--Daily temperature 
+- Forecasted Load 
+- Day Ahead Energy Price 
+- Day of Week 
+- Hour of Day 
+- Month 
+- Energy prices in surrounding states 
+- Daily temperature 
 
 
 ## Data
@@ -70,16 +70,10 @@ While training our RNN in milestone 4, randomly sampled data to split into train
 *   Test set: 16% of the data
 
 Conclusions:
-■ Should motivate problem 
-
-■ Discuss technical challenges or lessons learned in project.
-
-■ Should discuss conclusions (feature importance?), particularly for possible stakeholders 
-
 
 Overall, we found that a recurrent neural network (RNN) worked well for predicting the energy 
 price of Illinois. Our model correctly predicts the energy price 
-within 10% of the actual price 78% of the time. 
+within 10% of the actual price 78% of the time. We conclude that if you have millions of dollars on the line, this RNN would not be a good solution, as is. We believe the network needs to be deeper and be trained for a longer amount of time. 
 
 For more technical results, we used the mean squared error as our loss function. We had the following final train/validation losses: 
 
@@ -115,29 +109,7 @@ Over the course of our project, we learned that data cleaning and manipulation i
 [3]“How to Handle Cyclical Data in Machine Learning | Better Data Science,” betterdatascience.com. https://betterdatascience.com/cyclical-data-machine-learning/
 
 
-## MIT License
 
-
-Copyright (c) 2019-2024 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 
 
