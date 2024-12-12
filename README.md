@@ -1,5 +1,5 @@
 # IE 534 - Deep Dive Project
-# 
+
 Group 31  
 Project 7
 
@@ -10,6 +10,10 @@ Hong-Ming Chiu (hmchiu2@illinois.edu)
 
 ## Overview
 This is the final project for IE 534 / CS 547 Deep Learning at the UIUC. The final project is known as a deep dive project. The project was separated into five milestones.
+
+## Video Summary  
+The video summary can be viewed here:  
+https://drive.google.com/file/d/1-BfKYeP7_9H_0HZmEQeWynpG_kUGCyJN/view?usp=sharing  
 
 ## Problem Statement
 For this project, we will be predicting the price of energy provided by MISO (Midcontinent Independent System Operator). We are given different features, including Forecasted Load, Day Ahead Energy Price, Time, Energy prices in surrounding states and Predicted weather, and will be using recurrent neural networks to predict the price. The label (actual energy price) is the ground truth. We will try to predict the label.  
@@ -75,7 +79,15 @@ Conclusions:
 
 Overall, we found that a recurrent neural network (RNN) worked well for predicting the energy 
 price of Illinois. Our model correctly predicts the energy price 
-within 10% of the actual price 78% of the time.
+within 10% of the actual price 78% of the time. 
+
+For more technical results, we used the mean squared error as our loss function. We had the following final train/validation losses: 
+
+Training error: 5x10^-5​
+
+Validation error: 2x10^-4
+
+Our final test error was 
 
 The goal of predicting energy prices is to provide a way for customers and energy provider to save money. 
 Energy predictions "sends accurate price signals to generators and customers, informing them when and 
