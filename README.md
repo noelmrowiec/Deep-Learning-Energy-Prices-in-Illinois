@@ -55,7 +55,7 @@ Note: all energy prices are in Locational marginal pricing (LMP) units. Please s
 
 Note: the milestones gives a description about why we used a cyclical data format for the date.   
 
-
+## Overview of Milestones
 Milestone 1: For this milestone, we first figured out the layout of the dataset, and divided the dataset into debugging set and working set. We then pickled the data for future use.
 
 Milestone 2: There are two parts of this milestone, the data exploration part visualizes all different sources of data, while the linear regression fit the data in a simple linear model and showcase the accuracy of the model. It is worth noticing that after visualizing different sources of data, we decided to trim the data to a unified time span, which is data cleaning work.
