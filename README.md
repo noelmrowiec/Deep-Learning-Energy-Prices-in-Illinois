@@ -3,7 +3,7 @@
 Group 31  
 Project 7
 
-## Team members
+### Team members
 Noel Mrowiec (mrowiec3@illinois.edu)  
 Hanliang Jiang (hj33@illinois.edu)  
 Hong-Ming Chiu (hmchiu2@illinois.edu)  
