@@ -38,7 +38,7 @@ The data for this project is from various sources.
 - The temperature reading comes from https://www.sciencebase.gov/catalog/item/660ad9d2d34e4df16bd58a23
 
 
-## Features
+### Features
 We will use the following columns in the dataset as feature:
 
 - Sin_Month, Cos_Month: Month in cyclical data format  
@@ -53,7 +53,7 @@ We will use the following columns in the dataset as feature:
 
 Note: all energy prices are in Locational marginal pricing (LMP) units. Please see https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/ for more information.  
 
-Note: the milestones gives a description about why we used a cyclical data format for the date.   
+Note: the conclusion gives a description about why we used a cyclical data format for the date.   
 
 ## Overview of Milestones
 Milestone 1: For this milestone, we first figured out the layout of the dataset, and divided the dataset into debugging set and working set. We then pickled the data for future use.
@@ -103,7 +103,7 @@ Over the course of our project, we learned that data cleaning and manipulation i
 We spent the most time cleaning and merging data as we progressed through the milestones. We appreciated this aspect of machine learning since many other classes give the student clean data.
     
 
-### References:
+## References:
 [1]S. Ozkan, “An Intro to Locational Marginal Pricing | Enverus,” www.enverus.com, Jan. 05, 2022. https://www.enverus.com/blog/an-intro-to-locational-marginal-pricing/
 
 [2]T. Hodge, “Hourly electricity consumption varies throughout the day and across seasons - Today in Energy - U.S. Energy Information Administration (EIA),” www.eia.gov, Feb. 21, 2020. https://www.eia.gov/todayinenergy/detail.php?id=42915
