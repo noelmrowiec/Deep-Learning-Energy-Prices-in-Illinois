@@ -39,7 +39,7 @@ The data for this project is from various sources.
 
 
 ### Features
-We will use the following columns in the dataset as feature:
+We decided to use only the following features from the dataset:
 
 - Sin_Month, Cos_Month: Month in cyclical data format  
 - Sin_Day, Cos_Day: Day of the week in cyclical data format  
