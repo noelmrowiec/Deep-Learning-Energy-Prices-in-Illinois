@@ -60,6 +60,11 @@ Milestone 3: For this milestone, we trained a Recurrent Neural Network and exper
 
 Milestone 4: For this milestone, we evaluated feature importance for each different features by dropping out every feature separately and retrain the model. By the difference of accuracy rate between different features dropped out, we drew the conclusion that the energy price in Indiana has the most influence on the prediction.
 
+While training our RNN in milestone 4, randomly sampled data to split into training, validation and test sets.
+*   Training set: 80% of the data (randomly drawn from the data)
+*   Validation set: 4% of data
+*   Test set: 16% of the data
+
 Conclusions:
 ■ Should motivate problem 
 
