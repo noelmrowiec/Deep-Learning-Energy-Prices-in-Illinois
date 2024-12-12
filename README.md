@@ -101,6 +101,9 @@ Over the course of our project, we learned that data cleaning and manipulation i
     Although the original data included other MISO hubs energy price data like the Texas, Louisiana, and the Minnesota hubs, we only kept Indiana, Michigan, and Arkansas. The reason was that the instructions stated to include the surrounding states energy prices as features. Minnesota, Texas, etc. are not surrounding states. 
 
 We spent the most time cleaning and merging data as we progressed through the milestones. We appreciated this aspect of machine learning since many other classes give the student clean data.
+
+Below you can see out results on test data for min/max normalized data: 
+![alt text](results.jpg)
     
 
 ## References:
