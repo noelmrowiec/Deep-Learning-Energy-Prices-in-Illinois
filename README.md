@@ -69,7 +69,12 @@ While training our RNN in milestone 4, randomly sampled data to split into train
 *   Validation set: 4% of data
 *   Test set: 16% of the data
 
-Conclusions:
+## Conclusions
+The goal of predicting energy prices is to provide a way for customers and energy provider to save money. 
+Energy predictions "sends accurate price signals to generators and customers, informing them when and 
+where power is cheap or expensive. Market participants benefit from access to transparent real-time data 
+to make reliable decisions about investment, resulting in more innovation, efficiency, reliability and 
+market liquidity." [1] Accurate predictions are import because it will save more money. 
 
 Overall, we found that a recurrent neural network (RNN) worked well for predicting the energy 
 price of Illinois. Our model correctly predicts the energy price 
@@ -77,17 +82,11 @@ within 10% of the actual price 78% of the time. We conclude that if you have mil
 
 For more technical results, we used the mean squared error as our loss function. We had the following final train/validation losses: 
 
-Training error: 5x10^-5​
+Training error: 5x10^-5​ MSE
 
-Validation error: 2x10^-4
+Validation error: 2x10^-4 MSE
 
-Our final test error was 
-
-The goal of predicting energy prices is to provide a way for customers and energy provider to save money. 
-Energy predictions "sends accurate price signals to generators and customers, informing them when and 
-where power is cheap or expensive. Market participants benefit from access to transparent real-time data 
-to make reliable decisions about investment, resulting in more innovation, efficiency, reliability and 
-market liquidity." [1] Accurate predictions are import because it will save more money. 
+Our final test error was 0.2 MSE
 
 Over the course of our project, we learned that data cleaning and manipulation is very important. As we progressed through milestones, we spent the majority of our time adjusting our dataset. During milestone 1, we included all of the data. In the later milestones, we have to go back and adjust our data. Below is a list of how we had to adjust our data:
  - Merging data:
@@ -98,7 +97,10 @@ Over the course of our project, we learned that data cleaning and manipulation i
     There were periods of time that did not have samples. In the image below, we can see that in 2020 there was a long period of time without any recorded energy prices. 
     ![alt text](image.png)  
     Other features had similar missing samples. Thus, we decided to drop a sample if any of the features were not recorded. This allowed us to only include samples over specific date ranges. 
- - Feature selection: Although the original data included other MISO hubs like Texas and Louisiana, we only kept Minnasota, Indiana, and  
+ - Feature selection: 
+    Although the original data included other MISO hubs energy price data like the Texas, Louisiana, and the Minnesota hubs, we only kept Indiana, Michigan, and Arkansas. The reason was that the instructions stated to include the surrounding states energy prices as features. Minnesota, Texas, etc. are not surrounding states. 
+
+We spent the most time cleaning and merging data as we progressed through the milestones. We appreciated this aspect of machine learning since many other classes give the student clean data.
     
 
 ### References:
