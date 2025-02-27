@@ -16,7 +16,7 @@ The video summary can be viewed here:
 https://drive.google.com/file/d/1-BfKYeP7_9H_0HZmEQeWynpG_kUGCyJN/view?usp=sharing  
 
 ## Problem Statement
-For this project, we will be predicting the price of energy provided by MISO (Midcontinent Independent System Operator). We are given different features, including Forecasted Load, Day Ahead Energy Price, Time, Energy prices in surrounding states and Predicted weather, and will be using recurrent neural networks to predict the price. The actual energy price is the ground truth. We will try to predict the energy price given the features.  
+For this project, we will be predicting the price of energy provided by MISO (Midcontinent Independent System Operator). We are given different features, including Forecasted Load, Day Ahead Energy Price, Time, Energy prices in surrounding states and Predicted weather, and will be using recurrent neural networks to predict the price. The actual energy price is the ground truth. We will try to predict the energy price in Illinois given the features.  
 
 Label: 
 - Actual Energy Price (http://www.energyonline.com/Data/GenericData.aspx?DataId=8&MISO___Actual_Energy_Price) for ILLINOIS.HUB
